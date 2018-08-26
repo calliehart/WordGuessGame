@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Where in the World Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+<body>
+    <div class="pageTitle">
+        <h1>Where in the World?</h1>
+        <h3>Press Any Key to Get Started</h3>
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mainCol">
+                <h2>Think Countries...</h2>
+               
+                <div>
+                    <h4>Current Word:</h4>
+                    <p id="currentWord"></p>
+                </div>
+                <div>
+                    <h4>Remaining Guesses:</h4>
+                    <p id="guessesCounter"></p>
+                </div>
+                <div>
+                    <h4>Letters Guessed:</h4>
+                    <p id="lettersGuessed"></p>
+                </div>
+                <div>
+                    <h4>Wins:</h4>
+                    <p id="winsCounter"></p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="message"></div>
+                <div class="image">
+                    <img src="assets/images/globe.png" alt="globe" id="globeImg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
